@@ -1,1 +1,19 @@
-%h1 voila this is the placeholder
+#banner
+    .banner_content
+        %h1 DocCabinet
+        %p Organized document hosting.
+        %button= link_to "Enter", new_user_registration_path
+
+#callouts
+    .callout_inner
+        .wrapper
+            .callout
+                %h2 Organize
+                %p Create, edit, and save documents online
+                
+#bottom_cta
+    .wrapper
+        %h2 Go Ahead!
+        %br 
+        %button= link_to "Join Now", new_user_registration_path
+        
